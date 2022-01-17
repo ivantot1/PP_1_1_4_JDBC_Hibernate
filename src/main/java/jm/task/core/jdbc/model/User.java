@@ -32,6 +32,16 @@ public class User {
         return id;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -59,4 +69,5 @@ public class User {
     public void setAge(Byte age) {
         this.age = age;
     }
+
 }
