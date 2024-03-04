@@ -12,16 +12,12 @@ public class Main {
         // реализуйте алгоритм здесь
         Connection connection = Util.getConnection();
         UserDao userDao = new UserDaoJDBCImpl();
-        //userDao.createUsersTable();
-       //userDao.saveUser("Name11", "LastName1", (byte) 2);
-       // userDao.dropUsersTable();
-       //userDao.cleanUsersTable();
+        userDao.createUsersTable();
+        userDao.saveUser("Name11", "LastName1", (byte) 2);
+        //userDao.dropUsersTable();
+        //userDao.cleanUsersTable();
         //userDao.removeUserById((long) 7);
         userDao.getAllUsers();
-
-
-
-
 
 
     }

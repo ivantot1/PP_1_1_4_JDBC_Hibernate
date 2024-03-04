@@ -41,3 +41,5 @@ w
 G.idea/sonarlint/issuestore/9/8/98537719f21e123909a7e7550027eec65eb0241d,9/5/95fbc92c82fe560e75217d06d0796e8b60b7e4b3
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+m
+=src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java,f/6/f61bc8cc983455b547d554cfd3bddb383ad8d3bd

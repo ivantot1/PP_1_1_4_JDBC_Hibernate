@@ -28,12 +28,12 @@ public class UserServiceImpl implements UserService {
 
     }
 
-    public void removeUserById(long id) throws SQLException {
+    public void removeUserById(long id)  {
         userDao.removeUserById(id);
 
     }
 
-    public List<User> getAllUsers() throws SQLException {
+    public List<User> getAllUsers()  {
         return userDao.getAllUsers();
     }
 

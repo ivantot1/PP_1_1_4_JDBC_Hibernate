@@ -1,6 +1,8 @@
 
 [
-java:S1854">Remove this useless assignment to local variable "connection".(ÎÙåÆ8çŠåÄà1
+java:S1854">Remove this useless assignment to local variable "connection".(ÎÙåÆ8¥¥óÌà1
+‹
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Á¯¦ş8éÊ¡Íà1
 L
-java:S1481"/Remove this unused "connection" local variable.(ÎÙåÆ8éŠåÄà1
-]	java:S125"<This block of commented-out lines of code should be removed.(ş‡àÑşÿÿÿÿ8éŠåÄà1
+java:S1481"/Remove this unused "connection" local variable.(ÎÙåÆ8¦¥óÌà1
+]	java:S125"<This block of commented-out lines of code should be removed.(¬òì¥şÿÿÿÿ8êÊ¡Íà1
