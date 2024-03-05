@@ -8,12 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
-    private static Connection connection = Util.getConnection();
+    private static final Connection connection = Util.getConnection();
 
 
-    public UserDaoJDBCImpl() {
-
-    }
+    public UserDaoJDBCImpl() {}
 
     public void createUsersTable() {
         try (Statement statement = connection.createStatement()) {
@@ -21,18 +19,14 @@ public class UserDaoJDBCImpl implements UserDao {
                     "name VARCHAR(20) NOT NULL ," +
                     "lastName VARCHAR(30)NOT NULL," +
                     "age TINYINT NOT NULL )");
-
-        } catch (SQLException e) {
-        }
+        } catch (Exception ignored) {}
 
     }
 
     public void dropUsersTable() {
         try (Statement statement = connection.createStatement()) {
             statement.execute("DROP TABLE users");
-        } catch (SQLException e) {
-
-        }
+        } catch (Exception ignored) {}
 
     }
 
@@ -47,7 +41,7 @@ public class UserDaoJDBCImpl implements UserDao {
             System.out.println("User с именем – " + name + " добавлен в базу данных");
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new IllegalArgumentException();
 
         }
 
@@ -60,7 +54,7 @@ public class UserDaoJDBCImpl implements UserDao {
             preparedStatement.executeUpdate();
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new IllegalArgumentException ();
         }
     }
 
@@ -83,7 +77,7 @@ public class UserDaoJDBCImpl implements UserDao {
             }
             return userList;
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new IllegalArgumentException();
         }
 
     }
@@ -93,9 +87,8 @@ public class UserDaoJDBCImpl implements UserDao {
         try (Statement statement = connection.createStatement()) {
             statement.execute("DELETE FROM users");
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new IllegalArgumentException();
 
         }
-
     }
 }
