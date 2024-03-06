@@ -1,8 +1,25 @@
 
+f
+java:S1192"JDefine a constant instead of duplicating this literal "LastName1" 4 times.(ÆäÊ08›—šá1
+b
+java:S1192"FDefine a constant instead of duplicating this literal "Name1" 4 times.(ÆäÊ08›—šá1
+X	java:S125"<This block of commented-out lines of code should be removed.(ñÜê—8ÛÂÂ—á1
 [
-java:S1854">Remove this useless assignment to local variable "connection".(ÎÙåÆ8¥¥óÌà1
+java:S1854">Remove this useless assignment to local variable "connection".(ÎÙåÆ8ÛÂÂ—á1
 L
-java:S1481"/Remove this unused "connection" local variable.(ÎÙåÆ8¦¥óÌà1
-]	java:S125"<This block of commented-out lines of code should be removed.(¬òì¥şÿÿÿÿ8êÊ¡Íà1
-O
-java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ñ¾˜ëà1
+java:S1481"/Remove this unused "connection" local variable.(ÎÙåÆ8ÜÂÂ—á1
+X	java:S125"<This block of commented-out lines of code should be removed.(ĞÕ·¹8İÂÂ—á1
+X	java:S125"<This block of commented-out lines of code should be removed.(¿…û³8İÂÂ—á1
+X	java:S125"<This block of commented-out lines of code should be removed.(®ïÒæ8š›—šá1
+]	java:S125!"<This block of commented-out lines of code should be removed.(Ø¸Û¢ÿÿÿÿÿ8ú¿Éšá1
+]	java:S125%"<This block of commented-out lines of code should be removed.(ş‡àÑşÿÿÿÿ8İÂÂ—á1
+N
+java:S1128"1Remove this unused import 'com.mysql.cj.Session'.(ÃÈ¯–8İÂÂ—á1
+b
+java:S1128"@Remove this unused import 'com.mysql.cj.xdevapi.SessionFactory'.(á¹‹Ñúÿÿÿÿ8İÂÂ—á1
+\
+java:S1128":Remove this unused import 'jm.task.core.jdbc.dao.UserDao'.(½ÛÃøÿÿÿÿ8İÂÂ—á1
+[
+java:S1128	"9Remove this unused import 'jm.task.core.jdbc.model.User'.(õ„­³úÿÿÿÿ8İÂÂ—á1
+Y
+java:S1128"<Remove this unused import 'org.hibernate.cfg.Configuration'.(ö¬ä8İÂÂ—á1
